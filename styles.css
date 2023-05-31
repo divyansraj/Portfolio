@@ -626,7 +626,6 @@ footer{
     gap: 1.2rem;
 }
 
-
 @media (max-width:1200px) {
     .container{
         width: 100%;
@@ -711,7 +710,13 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
-    
+    .user-image{
+       padding: 1rem;
+        width: auto;
+    }
+    .absolute{
+        width: auto;
+    }
     .faded-text{
         display: none;
     }
@@ -730,10 +735,11 @@ footer{
     }
     .project-card {
         margin: 0;
-      width: 100%;
+      width: 94%;
       height: 300px;
     }
     .project-card {
+        border-radius: 10px;
       background-size: cover;
       background-position: center;
     }
@@ -743,6 +749,12 @@ footer{
       left: 0;
       right: 0;
       top: 0;
+    }
+    .project-header{
+        font-size: 60px;
+    }
+    .project-icons-container{
+        width: 90%;
     }
     .project-content-left {
       left: 0;
@@ -802,9 +814,18 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+
+    }
+    #contactme{
+        font-size: smaller;
+    }
+    #submit-btn{
+        width: fit-content;
     }
     .formfield{
+        width: 130%;
         margin-left: -70px;
+        margin-right: 0px;
     }
     #submit-btn{
         margin-left: -70px;
